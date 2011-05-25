@@ -4,7 +4,7 @@ class GemPackage
   
   def initialize
     @name = 'eymiha_math3'
-    @version = '1.0.2'
+    @version = '1.0.3'
     @files = FileList[
       '*.rb',
       'lib/**/*',
@@ -27,6 +27,7 @@ class GemPackage
     s.rubyforge_project = "cori"
     s.add_dependency("eymiha",">= 1.0.0")
     s.add_dependency("eymiha_math",">= 1.0.0")
+    s.add_dependency("eymiha_util",">= 1.0.3")
   end
 
 end
