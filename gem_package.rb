@@ -16,7 +16,7 @@ class GemPackage
   def fill_spec(s)
     s.name = name
     s.version = version
-    s.summary = "Emiyha - basic 3D math extensions"
+    s.summary = "Eymiha - basic 3D math extensions"
     s.files = files.to_a
     s.require_path = 'lib'
     s.has_rdoc = true
